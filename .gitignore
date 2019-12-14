@@ -24,18 +24,21 @@
 
 /public/assets
 .byebug_history
+<<<<<<< HEAD
 /test/models/*
 /test/fixtures/*
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 /config/credentials.yml.enc
+
 /public/packs
 /public/packs-test
 /node_modules
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+<<<<<<< HEAD
 /config/database.yml
 .browserslistrc
 

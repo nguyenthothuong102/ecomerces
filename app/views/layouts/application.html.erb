@@ -2,14 +2,15 @@
 <html>
   <head>
     <title><%= full_title yield(:title) %></title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
-    <%= javascript_pack_tag "application", "data-turbolinks-track": "reload" %>
+    <%= render "layouts/head_default"%>
   </head>
 
   <body>
+    <%= render "layouts/header" %>
+    <%= render "layouts/navi" %>
+    <%= render "layouts/section_about" %>
     <%= yield %>
+    <%= render "layouts/footer" %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true  %>
   </body>
 </html>
