@@ -1,0 +1,6 @@
+vi:
+  generate:
+    page_title: "Thương mại điện tử"
+  static_pages:
+    home:
+      home: "Trang chủ"
