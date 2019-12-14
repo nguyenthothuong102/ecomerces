@@ -1,3 +1,71 @@
 vi:
   generate:
     page_title: "Thương mại điện tử"
+  static_pages:
+    home:
+      home: "Trang chủ"
+  layouts:
+    admin:
+      header:
+        manager: "Quản lý Ecommerce"
+        logout: "Đăng xuất"
+      side_bar:
+        admin: "Quản lý"
+        oneline: "Hoạt động"
+        manager_system: "Quản lý hệ thống"
+        orders: "Đơn hàng"
+        users: "Người dùng"
+        categories: "Danh mục"
+        products: "Sản phẩm"
+        comments: "Bình luận"
+    header:
+      logout: "Đăng xuất"
+      tel: "+84-964-99-12-98"
+      add_email: "thuongmonster.slna37@gmail.com"
+      address: "Yên Thành"
+      usd: "Đô la"
+      my_account: "Tài khoản"
+      all_categories: "Danh mục"
+      search: "Tìm kiếm"
+      your_cart: "Giỏ hàng"
+      search_here: "Tìm kiếm ở đây"
+    navi:
+      home: "Trang chủ"
+      hot_deals: "Ưu đãi"
+      categories: "Danh mục"
+      laptops: "Laptops"
+      smart_phones: "Điện thoại"
+      cameras: "Camera"
+      accessories: "Phụ kiện"
+    section_about:
+      laptop: "Laptop"
+      collection: "Bộ sưu tập"
+      shop_now: "Mua ngay"
+      accessories: "Phụ kiện"
+      cameras: "Cameras"
+    footer:
+      tel: "+84-964-99-12-98"
+      email: "thuongmonster.slna37@gmail.com"
+      address: "Yên Thành"
+      categories: "Danh mục"
+      about_us: "Về chúng tôi"
+      hot_deals: "Ưu đãi"
+      laptops: "Laptops"
+      smart_phone: "Điện thoại"
+      cameras: "Cameras"
+      accessories: "Phụ kiện"
+      information: "Thông tin"
+      contact_us: "Liên hệ"
+      orders_and_returns: "Đặt hàng và trả lại"
+      terms: "Điều kiện & Điều khoản"
+  products:
+    index:
+      new_product: "Sản phẩm mới"
+      laptops: "Laptops"
+      smart_phone: "Điện thoại"
+      cameras: "Cameras"
+      accessories: "Phụ kiện"
+      category: "Danh mục sản phẩm"
+      product_name: "Tên sản phẩm"
+      price: "Giá"
+      add_to_cart: "Thêm vào giỏ hàng"

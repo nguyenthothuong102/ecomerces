@@ -1,0 +1,46 @@
+<footer id="footer">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-xs-6">
+          <div class="footer">
+            <h3 class="footer-title"><%= t".about_us" %></h3>
+            <ul class="footer-links">
+              <li><%= link_to fa_icon("", text: t(".address"), class: "fa fa-map-marker"), root_path %></li>
+              <li><%= link_to fa_icon("", text: t(".tel"), class: "fa fa-phone"), root_path %></li>
+              <li><%= link_to fa_icon("", text: t(".email"), class: "fa fa-envelope-o"), root_path %></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-xs-6">
+          <div class="footer">
+            <h3 class="footer-title"><%= t".categories" %></h3>
+            <ul class="footer-links">
+              <li><%= link_to t(".hot_deals"), root_path %></li>
+              <li><%= link_to t(".laptops"), root_path %></li>
+              <li><%= link_to t(".smart_phone"), root_path %></li>
+              <li><%= link_to t(".cameras"), root_path %></li>
+              <li><%= link_to t(".accessories"), root_path %></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="clearfix visible-xs"></div>
+
+        <div class="col-md-3 col-xs-6">
+          <div class="footer">
+            <h3 class="footer-title"><%= t ".information" %></h3>
+            <ul class="footer-links">
+              <li><%= link_to t(".about_us"), root_path %></li>
+              <li><%= link_to t(".contact_us"), root_path %></li>
+              <li><%= link_to t(".privacy_policy"), root_path %></li>
+              <li><%= link_to t(".orders_and_returns"), root_path %></li>
+              <li><%= link_to t(".terms"), root_path %></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
