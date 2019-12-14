@@ -1,2 +1,14 @@
 //= link_tree ../images
 //= link_directory ../stylesheets .css
+//= link application.js
+//= link admin/admin.css
+//= link admin/admin.js
+//= link logo.png
+//= link product01.png
+//= link product02.png
+//= link product05.png
+//= link product03.png
+//= link product04.png
+//= link shop01.png
+//= link shop02.png
+//= link shop03.png

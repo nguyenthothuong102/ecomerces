@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SellingBooks</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <title><%= full_title yield(:title) %></title>
+    <%= render "layouts/head_default"%>
   </head>
-
   <body>
+    <%= render "layouts/header" %>
+    <%= render "layouts/navi" %>
+    <%= render "layouts/section_about" %>
     <%= yield %>
+    <%= render "layouts/footer" %>
+    <%= render "layouts/javascripts" %>
   </body>
 </html>
