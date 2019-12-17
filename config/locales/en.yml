@@ -4,3 +4,68 @@ en:
   static_pages:
     home:
       home: "Home"
+  layouts:
+    admin:
+      header:
+        manager: "Manager Ecommerce"
+        logout: "Logout"
+      side_bar:
+        admin: "Admin"
+        oneline: "Online"
+        manager_system: "Manager System"
+        orders: "Orders"
+        users: "Users"
+        categories: "Categories"
+        products: "Products"
+        comments: "Comments"
+    header:
+      logout: "Logout"
+      tel: "+84-964-99-12-98"
+      add_email: "thuongmonster.slna37@gmail.com"
+      address: "Yen Thanh"
+      usd: "USD"
+      my_account: "My Account"
+      all_categories: "All Categories"
+      search: "Search"
+      your_cart: "Your Cart"
+      search_here: "Search here"
+    navi:
+      home: "Home"
+      hot_deals: "Hot Deals"
+      categories: "Categories"
+      laptops: "Laptops"
+      smart_phones: "Smart Phones"
+      cameras: "Cameras"
+      accessories: "Accessories"
+    section_about:
+      laptop: "Laptop"
+      collection: "Collection"
+      shop_now: "Shop now"
+      accessories: "Accessories"
+      cameras: "Cameras"
+    footer:
+      tel: "+84-964-99-12-98"
+      email: "thuongmonster.slna37@gmail.com"
+      address: "Yen Thanh"
+      categories: "Category"
+      about_us: "About Us"
+      hot_deals: "Hot Deals"
+      laptops: "Laptops"
+      smart_phone: "Smart Phones"
+      cameras: "Cameras"
+      accessories: "Accessories"
+      information: "Information"
+      contact_us: "Contact Us"
+      orders_and_returns: "Orders And Return"
+      terms: "Terms  &amp; Conditions"
+  products:
+    index:
+      new_product: "New Products"
+      laptops: "Laptops"
+      smart_phone: "Smart Phones"
+      cameras: "Cameras"
+      accessories: "Accessories"
+      category: "Category"
+      product_name: "Product Name"
+      price: "price"
+      add_to_cart: "Add To Cart"

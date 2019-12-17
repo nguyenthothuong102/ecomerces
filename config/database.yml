@@ -7,12 +7,12 @@ default: &default
 
 development:
   <<: *default
-  database: selling-books
+  database: sun-ecommerces
 
 test:
   <<: *default
-  database: selling-books
+  database: sun-ecommerces
 
 production:
   <<: *default
-  database: selling-books
+  database: sun-ecommerces
