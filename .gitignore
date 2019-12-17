@@ -24,7 +24,6 @@
 
 /public/assets
 .byebug_history
-<<<<<<< HEAD
 /test/models/*
 /test/fixtures/*
 

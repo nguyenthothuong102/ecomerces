@@ -92,6 +92,7 @@ ActiveRecord::Schema.define(version: 2019_12_17_085213) do
     t.string "remember_digest"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["email"], name: "index_users_on_email", unique: true
   end
 
   add_foreign_key "comments", "products"

@@ -69,3 +69,9 @@ vi:
       product_name: "Tên sản phẩm"
       price: "Giá"
       add_to_cart: "Thêm vào giỏ hàng"
+  user:
+    login_success: "Đăng nhập thành công!"
+    invalid_email: "Email / mật khẩu không hợp lệ!"
+    logout_success: "Đăng xuất thành công!"
+  users:
+    created_successfully: "Người dùng đã được tạo thành công!"

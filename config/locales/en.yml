@@ -69,3 +69,9 @@ en:
       product_name: "Product Name"
       price: "price"
       add_to_cart: "Add To Cart"
+  user:
+    login_success: "Login success!"
+    invalid_email: "Invalid email/password combination"
+    logout_success: "Logout success!"
+  users:
+    created_successfully: "User was successfully created!"
