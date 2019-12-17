@@ -2,6 +2,7 @@
 //= link_directory ../stylesheets .css
 //= link application.js
 //= link logo.png
+//= link avatar.png
 //= link product01.png
 //= link product02.png
 //= link product05.png

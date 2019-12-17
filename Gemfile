@@ -6,6 +6,7 @@ ruby "2.6.3"
 gem "bootsnap", ">= 1.4.2", require: false
 gem "bootstrap-sass", "~> 3.4.1"
 gem "figaro"
+gem "config"
 gem "font-awesome-rails"
 gem "jquery-rails"
 gem "jbuilder", "~> 2.7"

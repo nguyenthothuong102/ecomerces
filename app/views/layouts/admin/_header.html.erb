@@ -1,0 +1,14 @@
+<header class="main-header">
+    <a href="/" class="logo">
+        <span class="logo-lg"><%= t".manager" %></span>
+    </a>
+    <nav class="navbar navbar-static-top">
+        <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+                <li>
+                    <%= link_to fa_icon("", text: t(".logout"), class: "fa fa-sign-out"), method: "delete"%>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>

@@ -4,13 +4,16 @@
     <title><%= full_title yield(:title) %></title>
     <%= render "layouts/head_default"%>
   </head>
-
   <body>
     <%= render "layouts/header" %>
     <%= render "layouts/navi" %>
     <%= render "layouts/section_about" %>
-    <%= yield %>
+    <div class="section">
+      <div class="container">
+        <%= yield %>
+      </div>
+    </div>
     <%= render "layouts/footer" %>
-    <%= javascript_include_tag "application", "data-turbolinks-track" => true  %>
+    <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
   </body>
 </html>

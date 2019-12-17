@@ -4,3 +4,17 @@ vi:
   static_pages:
     home:
       home: "Trang chủ"
+  layouts:
+    admin:
+      header:
+        manager: "Quản lý Ecommerce"
+        logout: "Đăng xuất"
+      side_bar:
+        admin: "Quản lý"
+        oneline: "Hoạt động"
+        manager_system: "Quản lý hệ thống"
+        orders: "Đơn hàng"
+        users: "Người dùng"
+        categories: "Danh mục"
+        products: "Sản phẩm"
+        comments: "Bình luận"

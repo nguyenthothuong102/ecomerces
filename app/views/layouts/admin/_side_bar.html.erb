@@ -1,0 +1,31 @@
+<aside class="main-sidebar">
+    <section class="sidebar">
+        <div class="user-panel">
+            <div class="pull-left image">
+            <%= image_tag("avatar.png") %>
+            </div>
+            <div class="pull-left info">
+                <p><%= t ".admin" %></p>
+                <%= link_to t(".oneline") %>
+            </div>
+        </div>
+        <ul class="sidebar-menu tree" data-widget="tree">
+            <li class="header"><%= t".manager_system" %></li>
+            <li>
+                <%= link_to fa_icon("", text: t(".orders"), class: "fa fa-shopping-cart"), "#" %>
+            </li>
+            <li>
+                <%= link_to fa_icon("", text: t(".users"), class: "fa fa-user"), "#"%>
+            </li>
+            <li>
+                <%= link_to fa_icon("", text: t(".categories"), class: "fa fa-list-alt"), "#" %>
+            </li>
+            <li>
+                <%= link_to fa_icon("", text: t(".products"), class: "fa fa-tablet"), "#" %>
+            </li>
+            <li>
+                <%= link_to fa_icon("", text: t(".comments"), class: "fa fa-comments"), "#" %>
+            </li>
+        </ul>
+    </section>
+</aside>
